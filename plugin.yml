@@ -1,0 +1,36 @@
+name: Practice
+authors: [abhi, kbabe]
+version: 1.0
+main: us.blockgame.practice.Practice
+depend: [ProtocolLib, NametagEdit]
+commands:
+ accept:
+ arena:
+  permission: "practice.command.arena"
+ building:
+  permission: "practice.command.building"
+ duel:
+ inventory:
+  aliases: [inv]
+ ladder:
+  permission: "practice.command.ladder"
+ party:
+  aliases: [p]
+ seteditor:
+  permission: "practice.command.seteditor"
+ setspawn:
+  permission: "practice.command.setspawn"
+ spectate:
+  aliases: [sp, spec]
+ event:
+permissions:
+ practice.command.arena:
+  default: op
+ practice.command.building:
+  default: op
+ practice.command.ladder:
+  default: op
+ practice.command.seteditor:
+  default: op
+ practice.command.setspawn:
+  default: op
